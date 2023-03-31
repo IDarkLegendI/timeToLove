@@ -1,0 +1,27 @@
+{
+  "name": "InLove",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win"
+  },
+  "author": "",
+  "license": "ISC",
+  "git": "https://github.com/IDarkLegendI/timeToLove.git",
+  "devDependencies": {
+    "electron": "^23.2.1",
+    "electron-builder": "^23.6.0",
+    "remote": "^0.2.6"
+  },
+  "build":
+  {
+    "win": {
+      "icon": "./img/icon.ico"
+    },
+    "nsis": {
+      "installerIcon": "./img/icon.ico"
+    }
+  }
+}
